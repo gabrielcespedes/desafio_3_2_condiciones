@@ -1,0 +1,30 @@
+.imagen {
+    text-align: center;
+}
+
+.imagen img {
+    width: 60%;
+    cursor: pointer;
+    border-color: red;
+}
+
+h3 {
+    text-align: center;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.contenedor img {
+    width: 100%;
+    height: 25vh;
+    object-fit: contain;
+}
+
+.contenedor_boton {
+    margin-top: 10px;
+    text-align: center;
+}
