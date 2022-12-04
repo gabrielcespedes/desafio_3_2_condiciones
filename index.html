@@ -17,21 +17,68 @@
     </div>
 
     <h2>Parte 2</h2>
-    
+    <h3>Puedes llevar hasta 10 stickers a la vez.</h3>
     <div class="contenedor">
         <div>
             <img src="assets/img/Octocat.jpg">
-            <input>
+            <input id="input_1">
         </div>
         <div>
             <img src="assets/img/Slack_icon_2019.svg">
-            <input>
+            <input id="input_2">
         </div>
         <div>
             <img src="assets/img/Git-Logo-2Color.png">
-            <input>
+            <input id="input_3">
         </div>             
     </div>
+    <h3 id="lectura"></h3>
+    <div class="contenedor_boton">
+        <button onclick="sumar()">Verificar</button>
+    </div>
+    
+    <h2>Parte 3</h2>
+    <div class="password">
+        <h3>Ingresa el password.</h3>
+        <select id="select_1">
+            <option value=1>1</option>
+            <option value=2>2</option>
+            <option value=3>3</option>
+            <option value=4>4</option>
+            <option value=5>5</option>
+            <option value=6>6</option>
+            <option value=7>7</option>
+            <option value=8>8</option>
+            <option value=9>9</option>
+        </select>
+        <select id="select_2">
+            <option value=1>1</option>
+            <option value=2>2</option>
+            <option value=3>3</option>
+            <option value=4>4</option>
+            <option value=5>5</option>
+            <option value=6>6</option>
+            <option value=7>7</option>
+            <option value=8>8</option>
+            <option value=9>9</option>
+        </select>
+        <select id="select_3">
+            <option value=1>1</option>
+            <option value=2>2</option>
+            <option value=3>3</option>
+            <option value=4>4</option>
+            <option value=5>5</option>
+            <option value=6>6</option>
+            <option value=7>7</option>
+            <option value=8>8</option>
+            <option value=9>9</option>
+        </select>
+        <div class="contenedor_boton">
+            <button onclick="password()">Ingresar</button>
+        </div>
+        <h3 id="texto_password"></h3>
+    </div>
+    
     <script src="assets/js/index.js"></script>    
 </body>
 </html>

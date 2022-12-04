@@ -5,7 +5,6 @@
 .imagen img {
     width: 60%;
     cursor: pointer;
-    border-color: red;
 }
 
 h3 {
@@ -27,4 +26,11 @@ h3 {
 .contenedor_boton {
     margin-top: 10px;
     text-align: center;
+}
+
+.password {
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+    width: 60%;
 }
